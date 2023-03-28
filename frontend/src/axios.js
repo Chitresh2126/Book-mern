@@ -1,6 +1,6 @@
 import axios from "axios";
 export default axios.create({
-  baseURL: "https://z9y5v0nl67.execute-api.us-east-1.amazonaws.com/dev",
+  baseURL: "https://localhost:8080",
   withCredentials: false,
 });
 
